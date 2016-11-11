@@ -1,0 +1,230 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    padding-top: 40px;
+    position: relative;
+}
+
+.my-container {
+    padding: 40px 40px 0 40px;
+}
+
+.banner {
+    background: url('../img/bg.jpg') no-repeat fixed 50% 50% / cover;
+    height: 600px;
+    padding-top: 40px;
+}
+
+.container {
+    padding: 30px 40px 20px;
+}
+.my-container > div {
+    margin: 10px;
+}
+
+.tab-content {
+    padding: 10px;
+}
+
+.photo {
+    width: 300px;
+    height: 440px;
+    border-radius: 5%;
+    position: relative;
+    cursor: default;
+    box-shadow: 0 0 0 0 rgba(200, 95, 66, 0.15) inset, 0 0 0 16px rgba(255, 255, 255, 0.6) inset, 0 1px 2px rgba(0, 0, 0, 0.06);
+    margin: 0 auto;margin: 0 auto;
+    background-image: url("../img/photo.jpg");
+}
+
+section h1 {
+    padding: 40px 0;
+}
+
+.personal-data {
+    padding: 50px 30px;
+    text-align: center;
+}
+.personal-data > h1 {
+    margin-bottom: 10px;
+    font-size: 56px
+}
+
+.twitter-timeline {
+    float: right;
+}
+
+.skill-bar {
+    height: 24px;
+}
+
+.social-networks-list {
+    padding: 20px 0;
+}
+
+/*=========================
+  Icons
+ ================= */
+
+/* social icons */
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+/* footer social icons */
+.social-network a.icoFacebook {
+    background-color:#3B5998;
+}
+.social-network a.icoTwitter {
+    background-color:#33ccff;
+}
+.social-network a.icoInstagram {
+    background-color: #5e5e52;
+}
+.social-network a.icoGoogle {
+    background-color:#BD3518;
+}
+.social-network a.icoLinkedin {
+    background-color:#007bb7;
+}
+
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+a {
+    /*background-color: #D3D3D3;*/
+    letter-spacing: 3px;
+    color: #38b2aa;
+}
+
+a.hover, li.active > a {
+    color: #38b2aa;
+}
+
+/* Skills */
+
+span.skill {
+    margin: 5px 15px;
+    display: inline-block;
+}
+
+/* TODO: convert to less */
+span.skill-level-1, span.skill-level-2 {
+    font-size: 10px;
+}
+span.skill-level-3, span.skill-level-4 {
+    font-size: 12px;
+}
+span.skill-level-5, span.skill-level-6 {
+    font-size: 18px;
+}
+span.skill-level-7, span.skill-level-8 {
+    font-size: 22px;
+}
+span.skill-level-9, span.skill-level-10 {
+    font-size: 30px;
+}
+
+#skills-list {
+    width: 100%;
+    text-align: center;
+}
+
+#skills-list > div {
+    padding: 10px 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.thumbnail {
+    text-align: center;
+}
+
+.thumbnail p {
+    margin: 5px;
+}
+
+.gear-apps {
+    padding: 0 30px;
+}
+
+#skills-list > h2 {
+    padding: 5px;
+}
+
+.skills-in-projects {
+    font-size: medium;
+}
+
+.course-info {
+    margin-bottom: 20px;
+}
+
+.course-info > p {
+    margin: 0;
+}
+
+#projects .section-content {
+    padding: 0 20px;
+}
+
+.projects-list > section {
+    padding: 10px 0;
+}

@@ -1,0 +1,489 @@
+{
+  "skills": [
+    {
+      "category": "Web & Front End",
+      "list": [
+        {
+          "name": "AJAX",
+          "level": 1
+        },
+        {
+          "name": "Angular 2",
+          "level": 0
+        },
+        {
+          "name": "Angular JS",
+          "level": 6
+        },
+        {
+          "name": "Backbone",
+          "level": 0
+        },
+        {
+          "name": "Bootstrap",
+          "level": 7
+        },
+        {
+          "name": "Bower",
+          "level": 2
+        },
+        {
+          "name": "CofeeScript",
+          "level": 4
+        },
+        {
+          "name": "Cordova",
+          "level": 1
+        },
+        {
+          "name": "CSS3",
+          "level": 5
+        },
+        {
+          "name": "Express",
+          "level": 1
+        },
+        {
+          "name": "ExtJS",
+          "level": 0
+        },
+        {
+          "name": "Grunt",
+          "level": 4
+        },
+        {
+          "name": "Gulp",
+          "level": 6
+        },
+        {
+          "name": "HTML5",
+          "level": 6
+        },
+        {
+          "name": "Ionic",
+          "level": 3
+        },
+        {
+          "name": "Jade",
+          "level": 1
+        },
+        {
+          "name": "Jasmine",
+          "level": 0
+        },
+        {
+          "name": "JavaScript",
+          "level": 6
+        },
+        {
+          "name": "Joomla",
+          "level": 0
+        },
+        {
+          "name": "jQuery",
+          "level": 6
+        },
+        {
+          "name": "jQueryMobile",
+          "level": 5
+        },
+        {
+          "name": "JSON",
+          "level": 5
+        },
+        {
+          "name": "Less",
+          "level": 5
+        },
+        {
+          "name": "Lineman",
+          "level": 0
+        },
+        {
+          "name": "Magento",
+          "level": 0
+        },
+        {
+          "name": "Meteor JS",
+          "level": 0
+        },
+        {
+          "name": "Mocha",
+          "level": null
+        },
+        {
+          "name": "MongoDB",
+          "level": 6
+        },
+        {
+          "name": "Node JS",
+          "level": 3
+        },
+        {
+          "name": "Phantom JS",
+          "level": 0
+        },
+        {
+          "name": "PHP",
+          "level": 3
+        },
+        {
+          "name": "Prototype lib",
+          "level": null
+        },
+        {
+          "name": "Protractor",
+          "level": 0
+        },
+        {
+          "name": "Python",
+          "level": null
+        },
+        {
+          "name": "QUnit",
+          "level": 6
+        },
+        {
+          "name": "React",
+          "level": 0
+        },
+        {
+          "name": "REST API",
+          "level": 4
+        },
+        {
+          "name": "RWD",
+          "level": 5
+        },
+        {
+          "name": "Sass",
+          "level": 4
+        },
+        {
+          "name": "SEO Optimization",
+          "level": null
+        },
+        {
+          "name": "Sockets IO",
+          "level": 2
+        },
+        {
+          "name": "Spine",
+          "level": 0
+        },
+        {
+          "name": "SPServices",
+          "level": null
+        },
+        {
+          "name": "Stylus",
+          "level": 2
+        },
+        {
+          "name": "SVG",
+          "level": 3
+        },
+        {
+          "name": "TypeScript",
+          "level": 0
+        },
+        {
+          "name": "Web Analytics",
+          "level": null
+        },
+        {
+          "name": "Web Design",
+          "level": 1
+        },
+        {
+          "name": "WebKit",
+          "level": 3
+        },
+        {
+          "name": "WebSockets",
+          "level": 2
+        },
+        {
+          "name": "XHTML",
+          "level": null
+        }
+      ]
+    },
+    {
+      "category": "IDEs",
+      "list": [
+        {
+          "name": "Android Studio",
+          "level": 2
+        },
+        {
+          "name": "Eclipse",
+          "level": 7
+        },
+        {
+          "name": "IntelliJ IDEA",
+          "level": 1
+        },
+        {
+          "name": "MS Visual Studio",
+          "level": 2
+        },
+        {
+          "name": "Netbeans",
+          "level": 4
+        },
+        {
+          "name": "WebStorm",
+          "level": 6
+        }
+      ]
+    },
+    {
+      "category": "Languages",
+      "list": [
+        {
+          "name": "C",
+          "level": 5
+        },
+        {
+          "name": "C#",
+          "level": 0
+        },
+        {
+          "name": "C++",
+          "level": 6
+        },
+        {
+          "name": "Java",
+          "level": 4
+        },
+        {
+          "name": "Pascal",
+          "level": 4
+        },
+        {
+          "name": "Python",
+          "level": 0
+        },
+        {
+          "name": "SQL",
+          "level": 5
+        },
+        {
+          "name": "Visual Basic",
+          "level": 4
+        }
+      ]
+    },
+    {
+      "category": "Mobile platforms",
+      "list": [
+        {
+          "name": "Android",
+          "level": 4
+        },
+        {
+          "name": "Android NDK",
+          "level": 0
+        },
+        {
+          "name": "Bada",
+          "level": 8
+        },
+        {
+          "name": "Tizen",
+          "level": 8
+        },
+        {
+          "name": "Tizen Wearable",
+          "level": 7
+        }
+      ]
+    },
+    {
+      "category": "Databases",
+      "list": [
+        {
+          "name": "MS Access",
+          "level": null
+        },
+        {
+          "name": "MySQL",
+          "level": 6
+        },
+        {
+          "name": "OLAP",
+          "level": 1
+        },
+        {
+          "name": "Oracle",
+          "level": 3
+        },
+        {
+          "name": "SQLite",
+          "level": 6
+        }
+      ]
+    },
+    {
+      "category": "Tools",
+      "list": [
+        {
+          "name": "CAM",
+          "level": 6
+        },
+        {
+          "name": "Cmake",
+          "level": 3
+        },
+        {
+          "name": "Enterprise Architect",
+          "level": 4
+        },
+        {
+          "name": "GIT",
+          "level": 7
+        },
+        {
+          "name": "Jenkins",
+          "level": 3
+        },
+        {
+          "name": "Jira",
+          "level": 7
+        },
+        {
+          "name": "Klocwork",
+          "level": 3
+        },
+        {
+          "name": "MS Project 2010",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "category": "Graphical tools",
+      "list": [
+        {
+          "name": "Blender 3D",
+          "level": 3
+        },
+        {
+          "name": "GIMP",
+          "level": 3
+        },
+        {
+          "name": "Inkscape",
+          "level": 2
+        },
+        {
+          "name": "Photoshop",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "category": "CMS",
+      "list": [
+        {
+          "name": "PHP Fusion",
+          "level": 4
+        },
+        {
+          "name": "Quick CMS",
+          "level": 6
+        },
+        {
+          "name": "WordPress",
+          "level": 7
+        },
+        {
+          "name": "xTreme Fusion",
+          "level": 4
+        }
+      ]
+    },
+    {
+      "category": "Other",
+      "list": [
+        {
+          "name": "Algorytmy i struktury danych",
+          "level": 6
+        },
+        {
+          "name": "Bash scripts",
+          "level": 2
+        },
+        {
+          "name": "Data Mining",
+          "level": 2
+        },
+        {
+          "name": "Design Patterns",
+          "level": 5
+        },
+        {
+          "name": "EFL",
+          "level": 4
+        },
+        {
+          "name": "Grafy, algorytmy grafowe",
+          "level": 6
+        },
+        {
+          "name": "Ontologie",
+          "level": 7
+        },
+        {
+          "name": "OpenGL ES 1.1, 2.0",
+          "level": 4
+        },
+        {
+          "name": "Qt",
+          "level": null
+        },
+        {
+          "name": "Social Media",
+          "level": 8
+        },
+        {
+          "name": "STL",
+          "level": 2
+        },
+        {
+          "name": "UML",
+          "level": 6
+        },
+        {
+          "name": "XML",
+          "level": 3
+        },
+        {
+          "name": "Analytical Skills",
+          "level": 8
+        },
+        {
+          "name": "BPMN ",
+          "level": null
+        },
+        {
+          "name": "English",
+          "level": 7
+        },
+        {
+          "name": "Presentation Skills",
+          "level": 4
+        },
+        {
+          "name": "Project Management",
+          "level": 5
+        },
+        {
+          "name": "Scrum",
+          "level": 7
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{ "articles":
+[
+  {
+    "Name":"Simple custom organizer – part 1",
+    "Link":"https://developer.tizen.org/documentation/articles/simple-custom-organizer-tizen-native-api-part-1"
+  },
+  {
+    "Name":"Simple custom organizer – part 2",
+    "Link":"https://developer.tizen.org/community/tip-tech/simple-custom-organizer-tizen-native-api-%E2%80%93-part-2"
+  },
+  {
+    "Name":"Loading 3D model in your Tizen Native Application – part 1",
+    "Link":"https://developer.tizen.org/documentation/articles/loading-3d-model-your-tizen-native-application-part-1"
+  },
+  {
+    "Name":"Loading 3D model in your Tizen Native Application – part 2",
+    "Link":"https://developer.tizen.org/documentation/articles/loading-3d-model-your-tizen-native-application-part-2"
+  },
+  {
+    "Name":"Create animated chart with Chart JS",
+    "Link":"https://developer.tizen.org/documentation/articles/create-animated-charts-chart.js"
+  },
+  {
+    "Name":"Using LiveValidation JavaScript library",
+    "Link":"https://developer.tizen.org/documentation/articles/using-livevalidation-javascript-library"
+  },
+  {
+    "Name":"IvanK library introduction",
+    "Link":"https://developer.tizen.org/documentation/articles/ivank-library-introduction"
+  },
+  {
+    "Name":"Qunit – JavaScript unit testing framework",
+    "Link":"https://developer.tizen.org/documentation/articles/qunit-%E2%80%93-javascript-unit-testing-framework"
+  },
+  {
+    "Name":"How to create collage from your photos using Raphael JS library on Tizen",
+    "Link":"https://developer.tizen.org/documentation/articles/how-create-collage-your-photos-using-raphael-js-library-on-tizen"
+  },
+  {
+    "Name":"Working with Raphael JS library on Tizen",
+    "Link":"https://developer.tizen.org/documentation/articles/working-raphael-js-library-on-tizen"
+  },
+  {
+    "Name":"Working with CSS3 gradients",
+    "Link":"https://developer.tizen.org/documentation/articles/working-css3-gradients"
+  },
+  {
+    "Name":"Working with CSS3 filter effects",
+    "Link":"https://developer.tizen.org/documentation/articles/working-css3-filter-effects"
+  }
+],
+  "courses":
+          [
+            {
+              "Name": "Learn HTML5 from W3C",
+              "DateFrom": "2015-06-02",
+              "DateTo": "2015-07-21",
+              "Link": "https://www.edx.org/course/learn-html5-w3c-w3cx-html5-1x",
+              "Status": "Finished",
+              "Certificate": "https://verify.edx.org/cert/239f80ba05a04eda93411f61c14ef61b"
+            },
+            {
+              "Name": "Introduction to Bootstrap – A Tutorial",
+              "DateFrom": "2015-06-02",
+              "DateTo": "2015-08-25",
+              "Link": "https://www.edx.org/course/introduction-bootstrap-tutorial-microsoft-dev203x-0",
+              "Status": "Finished",
+              "Certificate": "https://verify.edx.org/cert/b31ebd65acbb42c8859000779e638a95"
+            },
+            {
+              "Name": "M101JS: MongoDB for Node.js Developers",
+              "DateFrom": "2015-08-04",
+              "DateTo": "2015-09-22",
+              "Link": "https://university.mongodb.com/courses/M101JS/about",
+              "Status": "Finished",
+              "Certificate": "https://www.dropbox.com/s/x6hrizfvp1yii2r/Certificate_MongoDB.pdf?dl=0"
+            }
+          ]
+}
