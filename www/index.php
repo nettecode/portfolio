@@ -117,7 +117,19 @@
         <h1>Skill set</h1>
         <p>Font size = skill's level</p>
         <div class="section-content">
-            <section id="skills-list">
+            <!-- fixme: class instead of id's -->
+            <section id="skills-list" class="row">
+            </section>
+            <section class="gallup-themes row">
+                <h2>Gallup StrengthsFinder Test's Result</h2>
+                <article class="my-top-5-themes">
+                    <h3>My Top 5 Themes</h3>
+                    <span>Input</span>
+                    <span>Discipline</span>
+                    <span>Learner</span>
+                    <span>Achiever</span>
+                    <span>Intellection</span>
+                </article>
             </section>
         </div>
     </section>
@@ -202,7 +214,7 @@
                         <p>Some of my articles published on developer.tizen.org *:</p>
                         <ul id="list-of-articles">
                         </ul>
-                        <p>* Almost every article encloses sample application.</p>
+                        <p>* Almost every article encloses a sample application.</p>
                     </section>
                 </div>
             </div>
