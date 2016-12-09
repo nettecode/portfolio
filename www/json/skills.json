@@ -25,7 +25,7 @@
         },
         {
           "name": "Bower",
-          "level": 2
+          "level": 4
         },
         {
           "name": "CofeeScript",
@@ -37,11 +37,11 @@
         },
         {
           "name": "CSS3",
-          "level": 5
+          "level": 6
         },
         {
           "name": "Express",
-          "level": 1
+          "level": 3
         },
         {
           "name": "ExtJS",
@@ -53,7 +53,7 @@
         },
         {
           "name": "Gulp",
-          "level": 6
+          "level": 7
         },
         {
           "name": "HTML5",
@@ -72,14 +72,6 @@
           "level": 0
         },
         {
-          "name": "JavaScript",
-          "level": 6
-        },
-        {
-          "name": "Joomla",
-          "level": 0
-        },
-        {
           "name": "jQuery",
           "level": 6
         },
@@ -89,7 +81,7 @@
         },
         {
           "name": "JSON",
-          "level": 5
+          "level": 7
         },
         {
           "name": "Less",
@@ -112,12 +104,8 @@
           "level": null
         },
         {
-          "name": "MongoDB",
-          "level": 6
-        },
-        {
           "name": "Node JS",
-          "level": 3
+          "level": 5
         },
         {
           "name": "Phantom JS",
@@ -136,10 +124,6 @@
           "level": 0
         },
         {
-          "name": "Python",
-          "level": null
-        },
-        {
           "name": "QUnit",
           "level": 6
         },
@@ -149,15 +133,15 @@
         },
         {
           "name": "REST API",
-          "level": 4
+          "level": 6
         },
         {
           "name": "RWD",
-          "level": 5
+          "level": 7
         },
         {
           "name": "Sass",
-          "level": 4
+          "level": 5
         },
         {
           "name": "SEO Optimization",
@@ -181,7 +165,7 @@
         },
         {
           "name": "SVG",
-          "level": 3
+          "level": 4
         },
         {
           "name": "TypeScript",
@@ -189,11 +173,11 @@
         },
         {
           "name": "Web Analytics",
-          "level": null
+          "level": 7
         },
         {
           "name": "Web Design",
-          "level": 1
+          "level": 2
         },
         {
           "name": "WebKit",
@@ -234,7 +218,7 @@
         },
         {
           "name": "WebStorm",
-          "level": 6
+          "level": 7
         }
       ]
     },
@@ -258,12 +242,16 @@
           "level": 4
         },
         {
+          "name": "JavaScript",
+          "level": 7
+        },
+        {
           "name": "Pascal",
           "level": 4
         },
         {
           "name": "Python",
-          "level": 0
+          "level": 1
         },
         {
           "name": "SQL",
@@ -304,6 +292,10 @@
       "category": "Databases",
       "list": [
         {
+          "name": "MongoDB",
+          "level": 6
+        },
+        {
           "name": "MS Access",
           "level": null
         },
@@ -318,6 +310,10 @@
         {
           "name": "Oracle",
           "level": 3
+        },
+        {
+          "name": "PostgreSQL",
+          "level": 5
         },
         {
           "name": "SQLite",
@@ -387,6 +383,10 @@
       "category": "CMS",
       "list": [
         {
+          "name": "Joomla",
+          "level": 0
+        },
+        {
           "name": "PHP Fusion",
           "level": 4
         },
@@ -396,7 +396,7 @@
         },
         {
           "name": "WordPress",
-          "level": 7
+          "level": 8
         },
         {
           "name": "xTreme Fusion",
@@ -408,8 +408,8 @@
       "category": "Other",
       "list": [
         {
-          "name": "Algorytmy i struktury danych",
-          "level": 6
+          "name": "Algorithms and Data Structures",
+          "level": 7
         },
         {
           "name": "Bash scripts",
@@ -421,18 +421,18 @@
         },
         {
           "name": "Design Patterns",
-          "level": 5
+          "level": 6
         },
         {
           "name": "EFL",
           "level": 4
         },
         {
-          "name": "Grafy, algorytmy grafowe",
+          "name": "Graphs, graphs' algorithms",
           "level": 6
         },
         {
-          "name": "Ontologie",
+          "name": "Ontology",
           "level": 7
         },
         {
