@@ -44,10 +44,10 @@ section h1 {
 .personal-data {
     padding: 50px 30px;
     text-align: center;
+    font-size: 18px;
 }
-.personal-data > h1 {
-    margin-bottom: 10px;
-    font-size: 56px
+.personal-data > h2 {
+    font-size: 56px;
 }
 
 .twitter-timeline {

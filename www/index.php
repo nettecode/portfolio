@@ -84,7 +84,7 @@
 
         <div class="section-content">
             <div class="personal-data col-md-7 col-sm-6">
-                <p>Żaneta Jażdżyk</p>
+                <h2>Żaneta Jażdżyk</h2>
 
                 <p>jazdzyk.zaneta@gmail.com</p>
 
