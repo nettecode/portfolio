@@ -10,11 +10,11 @@ var csslint = require('gulp-csslint');
 var connect = require('gulp-connect-php');
 
 var srcPaths = {
-    other: ['./www/css/lib/*', './www/fonts/*', './www/img/**/*', './www/json/*', './www/lib/*', './www/*.php']
+    other: ['./www/css/lib/*', './www/fonts/*', './www/img/**/*', './www/json/*', './www/lib/*', './www/*.php', './www/*']
 };
 
 var destPaths = {
-    other: ['./tmp/css/lib', './tmp/fonts', './tmp/img', './tmp/json', './tmp/lib', './tmp']
+    other: ['./tmp/css/lib', './tmp/fonts', './tmp/img', './tmp/json', './tmp/lib', './tmp', './tmp']
 };
 
 gulp.task('concat-js', function () {
