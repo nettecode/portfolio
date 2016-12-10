@@ -3,14 +3,14 @@
  */
 /*global $*/
 $(document).ready( function() {
+    var str = '',
+        form = $('#contactForm'),
+        formMessages = $('#formMessages');
+
     $('#my-tabs a').click(function (e) {
         e.preventDefault();
         $(this).tab('show');
     });
-
-    //$('#my-tabs a:eq(2)').tab('show');
-
-    var str = '';
 
     jQuery.getJSON('./json/skills.json', function(json){
         console.log(json.skills);
@@ -19,7 +19,6 @@ $(document).ready( function() {
         var colors = ["#85B3B7", "#BDA259", "#474C83", "#979BC6", "#376E73"];
 
         jQuery.each(json.skills, function (key, val) {
-            //console.log("cat: " + val.category);
             if (i !== 0 && i != 8) {
                 str += '<div class="col-sm-4" style="color: ' + colors[i % 5] + ';">';
             } else {
@@ -27,8 +26,6 @@ $(document).ready( function() {
             }
             str += '<h3>' + val.category + '</h3>';
             jQuery.each(json.skills[key].list, function(key, val) {
-                //console.log(val.name + ": " + val.level);
-
                 if (val.level)
                     if (val.level > 0) {
                         str += '<span class="skill skill-level-' + val.level + '" ATOMICSELECTION>' + val.name + '</span> ';
@@ -59,6 +56,38 @@ $(document).ready( function() {
         });
 
         $('#my-courses').html(str3);
+    });
+
+    $(form).submit(function(e) {
+        e.preventDefault();
+
+        var formData = $(form).serialize();
+
+        $.ajax({
+            type: 'POST',
+            url: $(form).attr('action'),
+            data: formData
+        })
+            .done(function(response) {
+                $(formMessages).removeClass('alert alert-danger');
+                $(formMessages).addClass('alert alert-success');
+
+                $(formMessages).text(response);
+
+                $('#name').val('');
+                $('#email').val('');
+                $('#message').val('');
+            })
+            .fail(function(data) {
+                $(formMessages).removeClass('alert alert-success');
+                $(formMessages).addClass('alert alert-danger');
+
+                if (data.responseText !== '') {
+                    $(formMessages).text(data.responseText);
+                } else {
+                    $(formMessages).text('Oops! An error occured and your message could not be sent.');
+                }
+            });
     });
 
 });

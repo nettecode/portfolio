@@ -1,38 +1,3 @@
-<?php
-	if (isset($_POST["submit"])) {
-		$email = $_POST['email'];
-		$subject = $_POST['msgTitle'];
-		$message = $_POST['msgBody'];
-		$to = 'jazdzyk.zaneta@gmail.com';
-
-		$body = "From E-Mail: $email\n Message:\n $message";
-
-		// Check if email has been entered and is valid
-		if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-			$errEmail = 'Please enter a valid email address';
-		}
-
-        //Check if subject has been entered
-        if (!$_POST['msgTitle']) {
-            $errSubject = 'Please enter subject of message';
-        }
-
-		//Check if message has been entered
-		if (!$_POST['msgBody']) {
-			$errMessage = 'Please enter your message';
-		}
-
-        // If there are no errors, send the email
-        if (!$errSubject && !$errEmail && !$errMessage) {
-            if (mail ($to, $subject, $body)) {
-                $result='<div class="alert alert-success">Thank You! I will be in touch</div>';
-            } else {
-                $result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
-            }
-        }
-	}
-?>
-
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -221,31 +186,12 @@
         </section>
         <section id="contact" class="row">
             <h1>Contact</h1>
-            <form method="post" role="form" action="index.php">
-                <div class="form-group">
-                    <input id="email" name="email" type="email" class="form-control" placeholder="Type your e-mail" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-                    <?php echo "<p class='text-danger'>$errEmail</p>";?>
-                </div>
-
-                <div class="form-group">
-                    <input id="msgTitle" name="msgTitle" type="text" class="form-control" placeholder="Message title" value="<?php echo htmlspecialchars($_POST['msgTitle']); ?>">
-                    <?php echo "<p class='text-danger'>$errSubject</p>";?>
-                </div>
-
-                <div class="form-group">
-                    <textarea id="msgBody" name="msgBody" class="form-control" rows="3" placeholder="Message body" value="<?php echo htmlspecialchars($_POST['msgBody']); ?>"></textarea>
-                    <?php echo "<p class='text-danger'>$errMessage</p>";?>
-                </div>
-
-                <div class="form-group">
-                    <input id="submit" name="submit" type="submit" class="btn btn-default" value="Send">
-                </div>
-
-                <div class="form-group">
-                    <div class="col-sm-10 col-sm-offset-2">
-                        <?php echo $result; ?>
-                    </div>
-                </div>
+            <div id="formMessages"></div>
+            <form id="contactForm" class="contactForm" method="post" action="mailer.php">
+                <input type="text" id="name" name="name" placeholder="Type your name" required>
+                <input type="email" id="email" name="email" placeholder="Type your e-mail" required>
+                <textarea id="message" name="message" placeholder="Type your message" required></textarea>
+                <button type="submit" class="btn btn-success col-sm-4 col-sm-offset-4">Send</button>
             </form>
         </section>
     </section>
