@@ -13,8 +13,6 @@ $(document).ready( function() {
     });
 
     jQuery.getJSON('./json/skills.json', function(json){
-        console.log(json.skills);
-
         var i = 0;
         var colors = ["#85B3B7", "#BDA259", "#474C83", "#979BC6", "#376E73"];
 

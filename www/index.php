@@ -8,6 +8,12 @@
     <meta property="og:image" content="http://zanetajazdzyk.com/img/bg.jpg" />
     <meta property="og:title" content="Żaneta Jażdżyk ~ Portfolio" />
     <meta property="og:description" content="Żaneta Jażdżyk. Mobile & Web Developer. Warsaw, Poland. Skill Set, Courses, Projects, Contact." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@ZanetaJazdzyk" />
+    <meta name="twitter:title" content="Żaneta Jażdżyk ~ Portfolio" />
+    <meta name="twitter:description" content="Żaneta Jażdżyk. Mobile & Web Developer. Warsaw, Poland. Skill Set, Courses, Projects, Contact." />
+    <meta name="twitter:image" content="http://zanetajazdzyk.com/img/photo.jpg" />
+    <meta name="google-site-verification" content="ZLCN4DMvoPV-7QtbkU0JeTMz4TmDieeU_m7Um_Sq2rY" />
     <title>Żaneta Jażdżyk ~ Portfolio</title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin-ext,latin' rel='stylesheet'
           type='text/css'>
