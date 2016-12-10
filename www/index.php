@@ -82,8 +82,7 @@
         <h1>Skill set</h1>
         <p>Font size = skill's level</p>
         <div class="section-content">
-            <!-- fixme: class instead of id's -->
-            <section id="skills-list" class="row">
+            <section id="skills-list" class="row" class="skillsList">
             </section>
             <section class="gallup-themes row">
                 <h2>Gallup StrengthsFinder Test's Result</h2>
@@ -102,87 +101,85 @@
     <section id="projects" class="row">
         <h1>Projects</h1>
 
-        <div class="section-content">
-                <div class="projects-list">
-                    <section>
-                        <h4>This portfolio</h4>
+        <div class="section-content projects-list">
+            <section>
+                <h4>This portfolio</h4>
 
-                        <p class="skills-in-projects">Bootstrap + HTML5 + CSS3 + JSON + JavaScript + jQuery
-                            + Gulp +
-                            JSHint
-                            +
-                            CSSLint</p>
-                    </section>
+                <p class="skills-in-projects">Bootstrap + HTML5 + CSS3 + JSON + JavaScript + jQuery
+                    + Gulp +
+                    JSHint
+                    +
+                    CSSLint</p>
+            </section>
 
-                    <section>
-                        <h4>Watch Faces on Gear 2 & Gear S</h4>
+            <section>
+                <h4>Watch Faces on Gear 2 & Gear S</h4>
 
-                        <p>Some of my Gear faces applications. All available on Galaxy Gear Market (search
-                            "nette"
-                            tag
-                            for all my applications on Market):</p>
+                <p>Some of my Gear faces applications. All available on Galaxy Gear Market (search
+                    "nette"
+                    tag
+                    for all my applications on Market):</p>
 
-                        <div class="row gear-apps">
-                            <div class="col-sm-3 col-xs-6 thumbnail">
-                                <img src="./img/WatchFaces/wheelface.png" alt="WheelFace"
-                                     class="gear-app-img">
+                <div class="row gear-apps">
+                    <div class="col-sm-3 col-xs-6 thumbnail">
+                        <img src="./img/WatchFaces/wheelface.png" alt="WheelFace"
+                             class="gear-app-img">
 
-                                <p>Wheel Face</p>
-                            </div>
+                        <p>Wheel Face</p>
+                    </div>
 
-                            <div class="col-sm-3 col-xs-6 thumbnail">
-                                <img src="./img/WatchFaces/tipNtop.png" alt="WheelFace"
-                                     class="gear-app-img">
+                    <div class="col-sm-3 col-xs-6 thumbnail">
+                        <img src="./img/WatchFaces/tipNtop.png" alt="WheelFace"
+                             class="gear-app-img">
 
-                                <p>TipNTop</p>
-                            </div>
+                        <p>TipNTop</p>
+                    </div>
 
-                            <div class="col-sm-3 col-xs-6 thumbnail">
-                                <img src="./img/WatchFaces/blacknwhite.png" alt="WheelFace"
-                                     class="gear-app-img">
+                    <div class="col-sm-3 col-xs-6 thumbnail">
+                        <img src="./img/WatchFaces/blacknwhite.png" alt="WheelFace"
+                             class="gear-app-img">
 
-                                <p>BlackNWhite</p>
-                            </div>
+                        <p>BlackNWhite</p>
+                    </div>
 
-                            <div class="col-sm-3 col-xs-6 thumbnail">
-                                <img src="./img/WatchFaces/vintage.png" alt="WheelFace"
-                                     class="gear-app-img">
+                    <div class="col-sm-3 col-xs-6 thumbnail">
+                        <img src="./img/WatchFaces/vintage.png" alt="WheelFace"
+                             class="gear-app-img">
 
-                                <p>Vintage</p>
-                            </div>
-                        </div>
-
-                        <p class="skills-in-projects">HTML5 + CSS3 + jQuery </p>
-                        <p>> 10k of downloads</p>
-                    </section>
-
-                    <section>
-                        <h4>TopMovies</h4>
-
-                        <p>Cooperation on Top Movies application</p>
-
-                        <p>
-                            <a href="https://play.google.com/store/apps/details?id=com.ionicframework.topmovies283911">Application
-                                available on Google store</a></p>
-                    </section>
-                    <section>
-                        <h4>Samsung Labo</h4>
-
-                        <p>Conducting lessons of the technological path within the Samsung Labo at West
-                            Pomeranian
-                            University of Technology in Szczecin (2014/10 - 2015/04).</p>
-                        <a href="https://labo.samsung.pl/">Official page</a>
-                    </section>
-                    <section>
-                        <h4>Tizen applications & articles</h4>
-
-                        <p>Some of my articles published on developer.tizen.org *:</p>
-                        <ul id="list-of-articles">
-                        </ul>
-                        <p>* Almost every article encloses a sample application.</p>
-                    </section>
+                        <p>Vintage</p>
+                    </div>
                 </div>
-            </div>
+
+                <p class="skills-in-projects">HTML5 + CSS3 + jQuery </p>
+                <p>> 10k of downloads</p>
+            </section>
+
+            <section>
+                <h4>TopMovies</h4>
+
+                <p>Cooperation on Top Movies application</p>
+
+                <p>
+                    <a href="https://play.google.com/store/apps/details?id=com.ionicframework.topmovies283911">Application
+                        available on Google store</a></p>
+            </section>
+            <section>
+                <h4>Samsung Labo</h4>
+
+                <p>Conducting lessons of the technological path within the Samsung Labo at West
+                    Pomeranian
+                    University of Technology in Szczecin (2014/10 - 2015/04).</p>
+                <a href="https://labo.samsung.pl/">Official page</a>
+            </section>
+            <section>
+                <h4>Tizen applications & articles</h4>
+
+                <p>Some of my articles published on developer.tizen.org *:</p>
+                <ul id="list-of-articles">
+                </ul>
+                <p>* Almost every article encloses a sample application.</p>
+            </section>
+        </div>
         </section>
         <section id="contact" class="row">
             <h1>Contact</h1>
